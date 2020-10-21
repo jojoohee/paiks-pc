@@ -1,0 +1,296 @@
+@charset "utf-8";
+
+ /* header */
+ .header {
+  position: relative;
+  height: 123px;
+  width: 1920px;
+}
+
+.header>.main_logo img {
+  margin-left: 386px;
+  margin-top: 34px;
+  width: 194px;
+  height: 66px  ;
+}
+
+.menu_top>ul {
+  display: flex;
+  justify-items: center;
+  align-content: center;
+  position: absolute;
+  top: 26px;
+  right: 386px;
+  height: 20px;
+}
+
+.menu_top>ul>li {
+  margin-left: 39px;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 2.25;
+}
+
+.menu_bottom>ul {
+  display: flex;
+  justify-items: flex-end;
+  align-content: center;
+  position: absolute;
+  bottom: 23px;
+  right: 386px;
+}
+
+.menu_bottom>ul>li {
+  margin-left: 86px;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.6875;
+}
+
+
+ /* section */
+
+.section {
+  width: 1920px;
+  height: 1612px;
+}
+
+/* section01 */
+
+.section01 {
+  position: relative;
+  margin-bottom: 69px;
+}
+
+.section01 img {
+  width: 100%;
+  height: 500px;
+}
+
+.sec01_tit {
+  position: absolute;
+  top: 149px;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+}
+
+.sec01_tit h2 {
+  font-size: 48px;
+  font-weight: 300; 
+}
+
+.sec01_tit h2::after {
+  content: '';
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 22px;
+  width: 40px;
+  height: 2px;
+  background-color: #000;
+}
+
+.sec01_tit p {
+  margin-top: 37px;
+  font-size: 18px;
+  font-weight: 100;
+}
+
+.sec01_menu ul {
+  position: absolute;
+  bottom: 41px;
+  left: 50%;
+  transform: translate(-50%);
+  display: flex;
+  
+}
+
+.sec01_menu li {
+  text-align: center;
+  line-height: 38px;
+  width: 170px;
+  height: 38px;
+  background-color: #ffe600;
+  border: 1px solid #999;
+}
+
+.sec01_menu li:nth-child(2),
+.sec01_menu li:nth-child(3) {
+  background-color: #fff;
+  color: #999;
+}
+
+.sec01_menu li a {
+  font-size: 18px;
+  font-weight: 400;
+}
+
+/* section02 */
+.section02 {
+  margin-bottom: 70px;
+}
+
+.sec02_img {
+ text-align: center;
+}
+
+.sec02_img img{
+  height: 63px;
+}
+
+/* section03 */
+
+.section03 {
+  height: 912px;
+}
+
+.sec03_content {
+  display: flex;
+  max-width: 1137px;
+  margin: 0 auto;
+}
+
+.sec03_profile_img {
+  margin-bottom: 34px;
+  margin-right: 53px;
+  width: 538px;
+  height: 523px;
+}
+
+.sec03_profile_txt h4{
+  margin-bottom: 26px;
+  font-size: 18px;
+  font-weight: 500;
+  color: #0e347e;
+}
+
+#profile {
+  display: flex;
+}
+
+.profile_left {
+  width: 167px;
+  margin-right: 16px;
+}
+
+.profile_left>p>span {
+  font-weight: 400;
+  font-size: 12px;
+  color: #000;
+}
+
+.profile_left>p,
+.profile_right>p{
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 1.5;
+  color: #999;
+}
+.profile_right {
+  width: 355px;
+}
+
+.sec03_episode {
+  position: relative;
+}
+
+.sec03_episode h3 {
+  font-size: 30px;
+  font: 400;
+  color: #0e347e;
+}
+
+.sec03_episode h3::after {
+  margin-top: 43px;
+  margin-bottom: 36px;
+  content: '';
+  display: block;
+  width: 40px;
+  height: 2px;
+  background-color: #0e347e;
+}
+
+.sec03_episode>p {
+  margin-bottom: 8px;
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 1.5;
+}
+
+.sec03_episode>p>span {
+  font-weight: 500;
+}
+
+.sec03_episode>.paik {
+  width: 175px;
+  height: 40px;
+  font-weight: 400;
+}
+
+.paik>span {
+  padding-left: 96px;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.paik_sign img {
+  position: absolute;
+  bottom: -21px;
+  left: 163px;
+  width: 136px;
+  height: 75px;
+}
+
+.line {
+  margin-top: 129px;
+  width: 100%;
+  height: 2px;
+  background-color: #ffe600;
+}
+
+
+/* footer */
+.footer {
+  width: 1920px;
+  height: 254px;
+}
+
+.foot_content {
+  position: relative;
+  text-align: center;
+}
+
+.foot_content .foot_logo {
+  margin-top: 41px;
+  margin-bottom: 35px;
+  width: 180px;
+  height: 51px;
+}
+
+.foot_content select {
+  position: absolute;
+  right: 386px;
+  top: 29px;
+  padding: 5px;
+  border: 2px solid #999;
+  color: #999;
+  cursor: pointer;
+}
+
+.foot_txt {
+  margin-bottom: 33px;
+  line-height: 2;
+}
+
+.foot_last_txt {
+  margin-bottom: 35px;
+}
+
+.top_btn {
+  position: absolute;
+  right: 287px;
+  bottom: 19px;
+  width: 60px;
+  height: 60px;
+}
